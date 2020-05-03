@@ -1082,11 +1082,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.iOS\\PourItOut.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.iOS\\PourItOut.iOS.csproj",
       "projectName": "PourItOut.iOS",
-      "projectPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.iOS\\PourItOut.iOS.csproj",
+      "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.iOS\\PourItOut.iOS.csproj",
       "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1107,8 +1107,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
-              "projectPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
+            "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+              "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
             }
           }
         }

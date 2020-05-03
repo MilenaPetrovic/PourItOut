@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {}
+    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {
+    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
         "projectName": "PourItOut.Android",
-        "projectPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+        "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
         "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
+        "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
-                "projectPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
+              "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+                "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
+        "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
         "projectName": "PourItOut",
-        "projectPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
+        "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
         "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milena\\source\\repos\\PourItOut\\PourItOut\\PourItOut\\obj\\",
+        "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
