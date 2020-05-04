@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {}
+    "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {
+    "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+        "projectUniqueName": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
         "projectName": "PourItOut.Android",
-        "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
-        "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
+        "projectPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+        "packagesPath": "C:\\Users\\Dusan\\.nuget\\packages\\",
+        "outputPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Milena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dusan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
-                "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
+              "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+                "projectPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
               }
             }
           }
@@ -62,21 +62,20 @@
         }
       }
     },
-    "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+    "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
+        "projectUniqueName": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
         "projectName": "PourItOut",
-        "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
-        "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\obj\\",
+        "projectPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj",
+        "packagesPath": "C:\\Users\\Dusan\\.nuget\\packages\\",
+        "outputPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Milena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dusan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -130,7 +129,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

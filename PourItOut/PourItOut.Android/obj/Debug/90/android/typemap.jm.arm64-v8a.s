@@ -1,4 +1,4 @@
-	/* Data SHA1: cf6595f449ead235ab5850b073da0e4691e60840 */
+	/* Data Hash: F4F6B3CCCF58F638 */
 	.arch	armv8-a
 	.file	"typemap.jm.inc"
 
