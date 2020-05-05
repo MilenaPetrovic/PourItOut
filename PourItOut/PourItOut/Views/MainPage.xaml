@@ -14,7 +14,7 @@
                    TextColor="Black"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Start a game" Clicked="StartGame" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250"
+            <Button Text="Start game" Clicked="StartGame" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250"
                     Margin="0,0,0,250"
                     BackgroundColor="#2196F3" 
                     TextColor="White"/>
