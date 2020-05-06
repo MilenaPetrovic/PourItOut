@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using PourItOut.Models;
 using System.Collections.ObjectModel;
+using Xamarin.Essentials;
 
 namespace PourItOut.Views
 {
@@ -23,29 +24,34 @@ namespace PourItOut.Views
             Players = list;
 
             // Creating layout
-            grid = new Grid();            
-            //grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(200) });
+            grid = new Grid();
+            var metrics = DeviceDisplay.MainDisplayInfo;
+            var height = metrics.Height; //Screen height
+            var rowHeight = height / (Players.Count * 20) > 70 ? height / (Players.Count * 20) : 70;
 
             // Creating layout items
-            int rowNum = 0;
+            int headerHeight = 60;
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(headerHeight) });
+            int rowNum = 1;
             foreach (string p in Players)
             {
-                Label lbl = new Label
+                Button btn = new Button
                 {
                     Text = p,
                     TextColor = Color.Black,
-                    BackgroundColor = Color.LightSteelBlue,
+                    BackgroundColor = Color.FromHex("#2196F3"),
                     HorizontalOptions = LayoutOptions.FillAndExpand,
-                    VerticalOptions = LayoutOptions.CenterAndExpand,
-                    VerticalTextAlignment = TextAlignment.Center,
-                    HorizontalTextAlignment = TextAlignment.Center
+                    VerticalOptions = LayoutOptions.FillAndExpand,
+                    
+             
                 };
 
-
-                lbl.GestureRecognizers.Add(new TapGestureRecognizer((view) => RemovePlayer(lbl)));
+                //btn.GestureRecognizers.Add(new TapGestureRecognizer((view) => RemovePlayer(btn)));
+                btn.Clicked += RemovePlayer2;
 
                 // Updating the grid
-                grid.Children.Add(lbl, 0, rowNum++);
+                grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(rowHeight) });
+                grid.Children.Add(btn, 0, rowNum++);
             }
 
             Content = grid;
@@ -56,10 +62,17 @@ namespace PourItOut.Views
             Players.Add(p);
         }
 
-        public void RemovePlayer(Label label)
+        public void RemovePlayer(Button btn)
         {
-            grid.Children.Remove(label);
-            Players.Remove(label.Text); 
+            grid.Children.Remove(btn);
+            Players.Remove(btn.Text);
+        }
+
+        public void RemovePlayer2(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            grid.Children.Remove(btn);
+            Players.Remove(btn.Text);
         }
     }
 }

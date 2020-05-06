@@ -18,14 +18,15 @@
             <!--Dodati listu igraca ispod -->
             <Button Text="Add a player" Clicked="AddPlayer"  HorizontalOptions="Center" WidthRequest="250"
                     BackgroundColor="#2196F3" 
-                    TextColor="White"/>
+                    TextColor="White" CornerRadius="20"/>
             <Button Text="Show players" Clicked="ShowPlayers"  HorizontalOptions="Center" WidthRequest="250"
                     BackgroundColor="#2196F3" 
-                    TextColor="White"/>
+                    TextColor="White"
+                    CornerRadius="20"/>
             <Button Text="Start game" Clicked="Gameplay"   VerticalOptions="End" HorizontalOptions="Center" WidthRequest="250"
-                    Margin="0,200,0,50"
+                    Margin="0,150,0,50"
                     BackgroundColor="#2196F3" 
-                    TextColor="White"/>
+                    TextColor="White" CornerRadius="20"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -24,12 +24,7 @@ namespace PourItOut.Views
             InitializeComponent();
 
             AskMe(null, null);
-        }
-
-        private void FillQuestions()
-        {
-            questions = new List<string> { "Kako si brt?", "Sta ima novo?", "Jesu dobro kuci?" };
-        }
+        }        
 
         private void AskMe(object sender, EventArgs e)
         {
@@ -51,6 +46,14 @@ namespace PourItOut.Views
                 lbl1.Text = $"{chosenQ}";
                 btnReady.Text = "Next player!";
             }
+        }
+
+        private void FillQuestions()
+        {
+            questions = new List<string> { 
+                "Kako si?", "Sta ima novo?", "Jesu dobro kuci?",
+                            
+            };
         }
     }
 }

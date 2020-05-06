@@ -23,7 +23,7 @@ namespace PourItOut.Views
         private void AddPlayer(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(playerName.Text) ||
-                players.Contains(playerName.Text))
+                players.Any(s => s.Equals(playerName.Text, StringComparison.OrdinalIgnoreCase)))
             {
                 playerName.PlaceholderColor = Color.FromHex("#ffffff");
                 playerName.BackgroundColor = Color.FromHex("#f70d1a");
