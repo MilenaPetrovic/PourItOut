@@ -1952,24 +1952,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dusan\\.nuget\\packages\\": {},
+    "C:\\Users\\Milena\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
       "projectName": "PourItOut.Android",
-      "projectPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
-      "packagesPath": "C:\\Users\\Dusan\\.nuget\\packages\\",
-      "outputPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
+      "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.Android\\PourItOut.Android.csproj",
+      "packagesPath": "C:\\Users\\Milena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dusan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Milena\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1983,8 +1983,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
-              "projectPath": "D:\\FON\\Programiranje\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
+            "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj": {
+              "projectPath": "C:\\Users\\Milena\\Desktop\\PourItOut\\PourItOut\\PourItOut\\PourItOut\\PourItOut.csproj"
             }
           }
         }
