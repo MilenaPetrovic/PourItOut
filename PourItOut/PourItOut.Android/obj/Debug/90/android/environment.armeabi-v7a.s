@@ -39,7 +39,7 @@ application_config:
 	/* is_a_bundled_app */
 	.byte	0
 	/* environment_variable_count */
-	.long	12
+	.long	8
 	/* system_property_count */
 	.long	0
 	/* android_package_name */
@@ -67,53 +67,33 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.5,"aMS",%progbits,1
 	.type	.L.str.5, %object
 .L.str.5:
-	.asciz	"MONO_LOG_LEVEL"
-	.size	.L.str.5, 15
+	.asciz	"XAMARIN_BUILD_ID"
+	.size	.L.str.5, 17
 	.section	.rodata..L.str.6,"aMS",%progbits,1
 	.type	.L.str.6, %object
 .L.str.6:
-	.asciz	"info"
-	.size	.L.str.6, 5
+	.asciz	"a95f5400-0d6a-4dc2-9634-003087775cec"
+	.size	.L.str.6, 37
 	.section	.rodata..L.str.7,"aMS",%progbits,1
 	.type	.L.str.7, %object
 .L.str.7:
-	.asciz	"XAMARIN_BUILD_ID"
-	.size	.L.str.7, 17
+	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
+	.size	.L.str.7, 28
 	.section	.rodata..L.str.8,"aMS",%progbits,1
 	.type	.L.str.8, %object
 .L.str.8:
-	.asciz	"8563910b-fa2e-45bb-a162-fe3ef31b7694"
-	.size	.L.str.8, 37
+	.asciz	"Xamarin.Android.Net.AndroidClientHandler"
+	.size	.L.str.8, 41
 	.section	.rodata..L.str.9,"aMS",%progbits,1
 	.type	.L.str.9, %object
 .L.str.9:
-	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
-	.size	.L.str.9, 28
+	.asciz	"XA_TLS_PROVIDER"
+	.size	.L.str.9, 16
 	.section	.rodata..L.str.10,"aMS",%progbits,1
 	.type	.L.str.10, %object
 .L.str.10:
-	.asciz	"Xamarin.Android.Net.AndroidClientHandler"
-	.size	.L.str.10, 41
-	.section	.rodata..L.str.11,"aMS",%progbits,1
-	.type	.L.str.11, %object
-.L.str.11:
-	.asciz	"XA_TLS_PROVIDER"
-	.size	.L.str.11, 16
-	.section	.rodata..L.str.12,"aMS",%progbits,1
-	.type	.L.str.12, %object
-.L.str.12:
 	.asciz	"btls"
-	.size	.L.str.12, 5
-	.section	.rodata..L.str.13,"aMS",%progbits,1
-	.type	.L.str.13, %object
-.L.str.13:
-	.asciz	"__XA_PACKAGE_NAMING_POLICY__"
-	.size	.L.str.13, 29
-	.section	.rodata..L.str.14,"aMS",%progbits,1
-	.type	.L.str.14, %object
-.L.str.14:
-	.asciz	"LowercaseCrc64"
-	.size	.L.str.14, 15
+	.size	.L.str.10, 5
 	.section	.data.app_environment_variables,"aw",%progbits
 	.type	app_environment_variables, %object
 	.p2align	2
@@ -127,11 +107,7 @@ app_environment_variables:
 	.long	.L.str.8
 	.long	.L.str.9
 	.long	.L.str.10
-	.long	.L.str.11
-	.long	.L.str.12
-	.long	.L.str.13
-	.long	.L.str.14
-	.size	app_environment_variables, 48
+	.size	app_environment_variables, 32
 	.section	.data.app_system_properties,"aw",%progbits
 	.type	app_system_properties, %object
 	.p2align	2
