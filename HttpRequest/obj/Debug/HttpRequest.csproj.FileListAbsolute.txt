@@ -1,0 +1,9 @@
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\bin\Debug\HttpRequest.exe.config
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\bin\Debug\HttpRequest.exe
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\bin\Debug\HttpRequest.pdb
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\obj\Debug\HttpRequest.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\obj\Debug\HttpRequest.exe
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\obj\Debug\HttpRequest.pdb
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Milena\Desktop\PourItOut\PourItOut\HttpRequest\obj\Debug\HttpRequest.csproj.CopyComplete

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="PourItOut.Views.PlayersList">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="#133C55">
             
         </StackLayout>
     </ContentPage.Content>

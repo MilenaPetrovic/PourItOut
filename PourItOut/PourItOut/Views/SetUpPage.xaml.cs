@@ -25,12 +25,12 @@ namespace PourItOut.Views
             if (string.IsNullOrEmpty(playerName.Text) ||
                 players.Any(s => s.Equals(playerName.Text, StringComparison.OrdinalIgnoreCase)))
             {
-                playerName.PlaceholderColor = Color.FromHex("#ffffff");
-                playerName.BackgroundColor = Color.FromHex("#f70d1a");
+                playerName.PlaceholderColor = Color.FromHex("#133C55");
+                playerName.BackgroundColor = Color.FromHex("#f70d1a"); //red
                 return;
             }
-            playerName.PlaceholderColor = Color.FromHex("#00d5ff");
-            playerName.BackgroundColor = Color.FromHex("#ffffff");
+            playerName.PlaceholderColor = Color.FromHex("#59A5D8"); //light blue
+            playerName.BackgroundColor = Color.FromHex("#133C55");
 
             players.Add(playerName.Text);
             playerName.Text = string.Empty;
@@ -40,14 +40,14 @@ namespace PourItOut.Views
 
         private void Gameplay(object sender, EventArgs e)
         {
-            if (players.Count == 0)
+            if (players.Count < 2)
             {
-                playerName.PlaceholderColor = Color.FromHex("#ffffff");
-                playerName.BackgroundColor = Color.FromHex("#f70d1a");
+                playerName.PlaceholderColor = Color.FromHex("#133C55");
+                playerName.BackgroundColor = Color.FromHex("#f70d1a"); //red
                 return;
             }
-            playerName.PlaceholderColor = Color.FromHex("#00d5ff");
-            playerName.BackgroundColor = Color.FromHex("#2196F3");
+            playerName.PlaceholderColor = Color.FromHex("#59A5D8"); //light blue
+            playerName.BackgroundColor = Color.FromHex("#133C55"); 
 
             Navigation.PushAsync(new GameplayPage(players));
         }

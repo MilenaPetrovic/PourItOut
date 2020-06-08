@@ -25,6 +25,7 @@ namespace PourItOut.Views
 
             // Creating layout
             grid = new Grid();
+            grid.BackgroundColor = Color.FromHex("#133C55");
             var metrics = DeviceDisplay.MainDisplayInfo;
             var height = metrics.Height; //Screen height
             var rowHeight = height / (Players.Count * 20) > 70 ? height / (Players.Count * 20) : 70;
@@ -38,8 +39,8 @@ namespace PourItOut.Views
                 Button btn = new Button
                 {
                     Text = p,
-                    TextColor = Color.Black,
-                    BackgroundColor = Color.FromHex("#2196F3"),
+                    TextColor = Color.FromHex("#E9FFFF"),
+                    BackgroundColor = Color.FromHex("#59A5D8"),
                     HorizontalOptions = LayoutOptions.FillAndExpand,
                     VerticalOptions = LayoutOptions.FillAndExpand,
                     
