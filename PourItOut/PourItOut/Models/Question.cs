@@ -14,6 +14,13 @@ namespace PourItOut.Models
         public int Id { get => id; set => id = value; }
         public string Text { get => text; set => text = value; }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Question question &&
+                   Id == question.Id &&
+                   Text == question.Text;
+        }
+
         public override string ToString()
         {
             return text;
