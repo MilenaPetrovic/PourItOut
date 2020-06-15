@@ -32,8 +32,8 @@ namespace PourItOut.Views
         string chosenP2 = null;
 
         List<string> players;
-        //List<Question> questions;
-        List<string> questions;
+        List<Question> questions;
+        //List<string> questions;
 
         Dictionary<string, List<string>> questionDict;
 
@@ -46,7 +46,7 @@ namespace PourItOut.Views
         int questionCounter = 1;
         int specialQuestionFrequency = 5;
 
-        public GameplayPage(List<string> players, List<string> questions)
+        public GameplayPage(List<string> players, List<Question> questions)
         {
             this.players = players;
             this.questions = questions;
@@ -188,8 +188,8 @@ namespace PourItOut.Views
                 {
                     i++;
                     int num = rnd.Next(0, questions.Count);
-                    //chosenQ = questions[num].Text;
-                    chosenQ = questions[num];
+                    chosenQ = questions[num].Text;
+                    //chosenQ = questions[num];
 
                     if (i == questions.Count * questions.Count)
                     {

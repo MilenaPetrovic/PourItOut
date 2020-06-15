@@ -1,0 +1,11 @@
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\Proba.exe.config
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\Proba.exe
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\Proba.pdb
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\PourItOut.dll
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\PourItOut.pdb
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\obj\Debug\Proba.csprojAssemblyReference.cache
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\obj\Debug\Proba.csproj.CopyComplete
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\obj\Debug\Proba.exe
+C:\Users\Milena\Desktop\PourItOut\PourItOut\Proba\obj\Debug\Proba.pdb
