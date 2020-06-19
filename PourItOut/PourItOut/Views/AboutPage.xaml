@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="PourItOut.Views.AboutPage"
              xmlns:vm="clr-namespace:PourItOut.ViewModels"
-             Title="{Binding Title}">
+             ControlTemplate="{StaticResource PageWithGradient}"
+             >
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -15,12 +16,14 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#59A5D8</Color>
-            <Color x:Key="Accent">#84D2F6</Color>
+            <Color x:Key="Accent">#141414</Color>
             <Color x:Key="LightTextColor">#999999</Color>
+            <Color x:Key="LogoBg">#e6e6e6</Color>
+                
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid BackgroundColor="#133C55">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -28,7 +31,7 @@
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
                 <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="logo.png" VerticalOptions="Center" HeightRequest="64" />
+                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
                 </ContentView>
             </StackLayout>
         </StackLayout>

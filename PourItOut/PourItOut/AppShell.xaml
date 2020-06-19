@@ -8,42 +8,21 @@
        Title="PourItOut"
        Shell.MenuItemTemplate="{StaticResource MenuTemplate}"
        Shell.FlyoutHeaderTemplate="{StaticResource FlyoutHeaderTemplate}"
-       x:Class="PourItOut.AppShell">
+       x:Class="PourItOut.AppShell"
+       BackgroundImageSource="bg.png"
+       FlyoutBehavior="Flyout"
+       xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients" 
+       >
 
     <!-- 
         Styles and Resources 
     -->
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#59A5D8</Color>
-            <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
-                <Setter Property="Shell.ForegroundColor" Value="#133C55" />
-                <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="#133C55"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="#133C55"/>
-            </Style>
-            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
-            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}"/>
 
-            <DataTemplate x:Key="MenuTemplate">
-                <StackLayout Orientation="Horizontal" BackgroundColor="#133C55">
-                    <Image Margin="30,10,20,10" Source="logo.png" WidthRequest="22" HeightRequest="22" VerticalOptions="Center"/>
-                    <Label Text="{Binding Title}" TextColor="#E9FFFF" FontSize="16" VerticalTextAlignment="Center"/>
-                </StackLayout>
-            </DataTemplate>
-            <DataTemplate x:Key="FlyoutHeaderTemplate">
-                <ContentView BackgroundColor="#133C55" HeightRequest="350">
-                    <Image Source="logo.png" WidthRequest="96" HeightRequest="96" HorizontalOptions="Center" VerticalOptions="Center"/>
-                </ContentView>
-            </DataTemplate>
         </ResourceDictionary>
     </Shell.Resources>
-    
+
     <!-- Your Pages -->
     <TabBar>
         <Tab Title="Home" Icon="tab_feed.png">

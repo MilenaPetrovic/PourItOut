@@ -4,9 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PourItOut.Views.GameplayPage">
+             x:Class="PourItOut.Views.GameplayPage"
+             ControlTemplate="{StaticResource PageWithGradient}"
+             >
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#133C55">
+        <StackLayout>
             <Label x:Name="lbl1"
                 FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
@@ -16,7 +18,7 @@
                 TextColor="White"/>
             <Button x:Name="btnReady" Text="Next player!" Clicked="AskMe"  VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250"
                 Margin="0,0,0,30"
-                BackgroundColor="#133C55" 
+                BackgroundColor="#141414" 
                 BorderColor="#2196F3"
                 BorderWidth="1"
                 TextColor="White" CornerRadius="20"/>

@@ -4,9 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PourItOut.Views.PlayersList">
+             x:Class="PourItOut.Views.PlayersList"
+             ControlTemplate="{StaticResource PageWithGradient}"
+             >
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#133C55">
+        <StackLayout>
             
         </StackLayout>
     </ContentPage.Content>

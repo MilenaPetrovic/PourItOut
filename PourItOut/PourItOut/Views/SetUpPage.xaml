@@ -4,16 +4,25 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="PourItOut.Views.SetUpPage">
+             x:Class="PourItOut.Views.SetUpPage"
+             ControlTemplate="{StaticResource PageWithGradient}"
+             >
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Placeholder">#59A5D8</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#133C55">
+        <StackLayout>
             <Label x:Name="lbl1" 
                 Text="Enter 1. player:"
                 HorizontalOptions="Center" FontSize="Large" TextColor="White"
                    Margin="0,200,0,20"/>
             <Entry x:Name="playerName" 
                    Placeholder="Player name" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="#59A5D8"
-                   Margin="0,0,0,20" PlaceholderColor="#59A5D8"
+                   Margin="0,0,0,20" PlaceholderColor="{StaticResource Placeholder}"
                    FontSize="Large"/>
             <!--Dodati listu igraca ispod -->
             <Button Text="Add a player" Clicked="AddPlayer"  HorizontalOptions="Center" WidthRequest="250"

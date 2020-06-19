@@ -4,8 +4,12 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "PourItOut.Android.dll" comes first in this list. */
 		"PourItOut.Android.dll",
 		"FormsViewGroup.dll",
+		"MagicGradients.dll",
 		"Newtonsoft.Json.dll",
 		"PourItOut.dll",
+		"SkiaSharp.dll",
+		"SkiaSharp.Views.Android.dll",
+		"SkiaSharp.Views.Forms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

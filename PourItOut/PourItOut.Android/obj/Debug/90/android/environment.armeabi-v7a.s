@@ -39,7 +39,7 @@ application_config:
 	/* is_a_bundled_app */
 	.byte	0
 	/* environment_variable_count */
-	.long	10
+	.long	8
 	/* system_property_count */
 	.long	0
 	/* android_package_name */
@@ -67,43 +67,33 @@ mono_aot_mode_name:
 	.section	.rodata..L.str.5,"aMS",%progbits,1
 	.type	.L.str.5, %object
 .L.str.5:
-	.asciz	"MONO_LOG_LEVEL"
-	.size	.L.str.5, 15
+	.asciz	"XAMARIN_BUILD_ID"
+	.size	.L.str.5, 17
 	.section	.rodata..L.str.6,"aMS",%progbits,1
 	.type	.L.str.6, %object
 .L.str.6:
-	.asciz	"info"
-	.size	.L.str.6, 5
+	.asciz	"2a8ece59-53b6-4012-85f4-64c4dd6ea77c"
+	.size	.L.str.6, 37
 	.section	.rodata..L.str.7,"aMS",%progbits,1
 	.type	.L.str.7, %object
 .L.str.7:
-	.asciz	"XAMARIN_BUILD_ID"
-	.size	.L.str.7, 17
+	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
+	.size	.L.str.7, 28
 	.section	.rodata..L.str.8,"aMS",%progbits,1
 	.type	.L.str.8, %object
 .L.str.8:
-	.asciz	"706456d7-42f8-4a19-b51b-aabcbaabeb7e"
-	.size	.L.str.8, 37
+	.asciz	"Xamarin.Android.Net.AndroidClientHandler"
+	.size	.L.str.8, 41
 	.section	.rodata..L.str.9,"aMS",%progbits,1
 	.type	.L.str.9, %object
 .L.str.9:
-	.asciz	"XA_HTTP_CLIENT_HANDLER_TYPE"
-	.size	.L.str.9, 28
+	.asciz	"XA_TLS_PROVIDER"
+	.size	.L.str.9, 16
 	.section	.rodata..L.str.10,"aMS",%progbits,1
 	.type	.L.str.10, %object
 .L.str.10:
-	.asciz	"Xamarin.Android.Net.AndroidClientHandler"
-	.size	.L.str.10, 41
-	.section	.rodata..L.str.11,"aMS",%progbits,1
-	.type	.L.str.11, %object
-.L.str.11:
-	.asciz	"XA_TLS_PROVIDER"
-	.size	.L.str.11, 16
-	.section	.rodata..L.str.12,"aMS",%progbits,1
-	.type	.L.str.12, %object
-.L.str.12:
 	.asciz	"btls"
-	.size	.L.str.12, 5
+	.size	.L.str.10, 5
 	.section	.data.app_environment_variables,"aw",%progbits
 	.type	app_environment_variables, %object
 	.p2align	2
@@ -117,9 +107,7 @@ app_environment_variables:
 	.long	.L.str.8
 	.long	.L.str.9
 	.long	.L.str.10
-	.long	.L.str.11
-	.long	.L.str.12
-	.size	app_environment_variables, 40
+	.size	app_environment_variables, 32
 	.section	.data.app_system_properties,"aw",%progbits
 	.type	app_system_properties, %object
 	.p2align	2
