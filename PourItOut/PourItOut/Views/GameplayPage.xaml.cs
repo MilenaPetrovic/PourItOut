@@ -32,8 +32,8 @@ namespace PourItOut.Views
         string chosenP2 = null;
 
         List<string> players;
-        //List<Question> questions;
-        List<string> questions;
+        List<Question> questions;
+        //List<string> questions;
 
         Dictionary<string, List<string>> questionDict;
 
@@ -46,7 +46,7 @@ namespace PourItOut.Views
         int questionCounter = 1;
         int specialQuestionFrequency = 5;
 
-        public GameplayPage(List<string> players, List<string> questions)
+        public GameplayPage(List<string> players, List<Question> questions)
         {
             this.players = players;
             this.questions = questions;
@@ -70,8 +70,11 @@ namespace PourItOut.Views
             AskMe(null, null);
         }
 
-        private void AskMe(object sender, EventArgs e)
+        private async void AskMe(object sender, EventArgs e)
         {
+            // Fade to 0 opacity
+            await lbl1.FadeTo(0, 500);
+
             // Returning to main menu
             if (signal == Signal.ReturnToMainMenu)
             {
@@ -188,8 +191,8 @@ namespace PourItOut.Views
                 {
                     i++;
                     int num = rnd.Next(0, questions.Count);
-                    //chosenQ = questions[num].Text;
-                    chosenQ = questions[num];
+                    chosenQ = questions[num].Text;
+                    //chosenQ = questions[num];
 
                     if (i == questions.Count * questions.Count)
                     {
@@ -210,7 +213,7 @@ namespace PourItOut.Views
                 {
                     questionDict[chosenP2].Add(chosenQ);
                 }
-
+                
                 lbl1.Text = $"{chosenQ}";
                 btnReady.Text = "Next!";
 
@@ -219,6 +222,9 @@ namespace PourItOut.Views
                 chosenP2 = null;
                 signal = Signal.ChoosePlayers;
             }
+
+            // Fade back to 1 opacity
+            await lbl1.FadeTo(1, 500);
         }
 
     }

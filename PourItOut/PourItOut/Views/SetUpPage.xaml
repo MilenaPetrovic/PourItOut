@@ -19,7 +19,7 @@
             <Label x:Name="lbl1" 
                 Text="Enter 1. player:"
                 HorizontalOptions="Center" FontSize="Large" TextColor="White"
-                   Margin="0,200,0,20"/>
+                   Margin="0,150,0,20"/>
             <Entry x:Name="playerName" 
                    Placeholder="Player name" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="#E9FFFF"
                    Margin="0,0,0,20" PlaceholderColor="#E9FFFF"
