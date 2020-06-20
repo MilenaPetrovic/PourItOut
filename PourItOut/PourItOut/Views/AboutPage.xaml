@@ -15,7 +15,7 @@
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Primary">#59A5D8</Color>
+            <Color x:Key="Primary">#950A9B</Color>
             <Color x:Key="Accent">#141414</Color>
             <Color x:Key="LightTextColor">#999999</Color>
             <Color x:Key="LogoBg">#e6e6e6</Color>

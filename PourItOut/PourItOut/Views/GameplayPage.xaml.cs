@@ -131,7 +131,7 @@ namespace PourItOut.Views
                     formattedString.Spans.Add(new Span
                     {
                         Text = $"{chosenP1}",
-                        ForegroundColor = Color.FromHex("#84D2F6")
+                        ForegroundColor = Color.FromHex("#B203AE")
                     });
                     formattedString.Spans.Add(new Span
                     {
@@ -141,7 +141,7 @@ namespace PourItOut.Views
                     formattedString.Spans.Add(new Span
                     {
                         Text = $"{chosenP2}",
-                        ForegroundColor = Color.FromHex("#84D2F6")
+                        ForegroundColor = Color.FromHex("#B203AE")
                     });
                     formattedString.Spans.Add(new Span
                     {
@@ -165,7 +165,7 @@ namespace PourItOut.Views
                     formattedString.Spans.Add(new Span
                     {
                         Text = $"{chosenP1}",
-                        ForegroundColor = Color.FromHex("#84D2F6")
+                        ForegroundColor = Color.FromHex("#B203AE")
                     });
                     formattedString.Spans.Add(new Span
                     {

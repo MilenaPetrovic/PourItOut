@@ -87,14 +87,6 @@
                     FontSize="40" HorizontalOptions="Center" VerticalOptions="Center" />
                 </Grid>
             </DataTemplate>
-
-            <!--<DataTemplate x:Key="FlyoutHeaderTemplate">
-                
-                <ContentView BackgroundColor="#141414" HeightRequest="350">
-                    <Image Source="logo.png" WidthRequest="192" HeightRequest="192" HorizontalOptions="Center" VerticalOptions="Center"/>
-                </ContentView>
-            </DataTemplate>-->
-
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -19,7 +19,7 @@
             <Button x:Name="btnReady" Text="Next player!" Clicked="AskMe"  VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="250"
                 Margin="0,0,0,30"
                 BackgroundColor="#141414" 
-                BorderColor="#2196F3"
+                BorderColor="#B203AE"
                 BorderWidth="1"
                 TextColor="White" CornerRadius="20"/>
         </StackLayout>

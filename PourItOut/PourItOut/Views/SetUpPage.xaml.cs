@@ -28,15 +28,21 @@ namespace PourItOut.Views
             InitializeComponent();
         }
 
-        private void AddPlayer(object sender, EventArgs e)
+        private async void AddPlayer(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(playerName.Text) ||
                 players.Any(s => s.Equals(playerName.Text, StringComparison.OrdinalIgnoreCase)))
             {
                 playerName.TextColor = Color.FromHex("#f70d1a");
+                await playerName.TranslateTo(-20, 0, 50);
+                await playerName.TranslateTo(+20, 0, 50);
+                await playerName.TranslateTo(0, 0, 50);
+                playerName.TextColor = Color.FromHex("#E9FFFF");
+
                 return;
             }
-            playerName.PlaceholderColor = Color.FromHex("#59A5D8");
+            playerName.PlaceholderColor = Color.FromHex("#E9FFFF");
+            playerName.TextColor = Color.FromHex("#E9FFFF");
 
             players.Add(playerName.Text);
             playerName.Text = string.Empty;
@@ -44,14 +50,20 @@ namespace PourItOut.Views
             playerName.Focus();
         }
 
-        private void Gameplay(object sender, EventArgs e)
+        private async void Gameplay(object sender, EventArgs e)
         {
             if (players.Count < 2)
             {
                 playerName.TextColor = Color.FromHex("#f70d1a");
+                await playerName.TranslateTo(-20, 0, 50);
+                await playerName.TranslateTo(+20, 0, 50);
+                await playerName.TranslateTo(0, 0, 50);
+                playerName.TextColor = Color.FromHex("#E9FFFF");
+
                 return;
             }
-            playerName.PlaceholderColor = Color.FromHex("#59A5D8");
+            playerName.PlaceholderColor = Color.FromHex("#E9FFFF");
+            playerName.TextColor = Color.FromHex("#E9FFFF");
 
             bool loaded = FillQuestions();
             if (!loaded)
