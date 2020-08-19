@@ -8,3 +8,7 @@ A fun forfeit game in which players take turn answering a question out loud with
 Game is made using Xamarin framework which is open-source mobile application platform, part of .NET technologies.
 Application communicates with SQL database using API created in ASP.NET.
 IDE used is Visual Studio 2019.
+
+<p align="center">
+  <img src="readme-gif.gif">
+</p>
